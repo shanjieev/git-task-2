@@ -1,0 +1,62 @@
+difference between document and window objects.
+*DOCUMENT  
+the document object represents a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.      
+Syntax: document.method_name;
+it reperesent any html document or web page that is loaded in the browser.
+it's loaded inside the window.
+it is a objects window property.
+all the tags,elements with attributes in the html are part of the document.
+we can access the document from a window using the window.document.
+the document is part of BOM (browser objects model).DOM(document object model).
+properties of document objects such as title,cookies,body,etc.. 
+It returns the currently active elements in the document.
+body: It returns the contents of the body element.
+anchors: It returns all <a> elements that have a name attribute.
+baseURI: It returns a string value that represents the base URI of the document.
+cookie: It returns the cookie of the current document.
+charSet: It returns a string, representing the document’s character encoding.
+defaultView: It returns the current Window Object.
+ It is used to set documents as editable or read-only.
+domain: It returns the domain name of the document server.
+doctype: It returns the document’s doctype.
+embeds: It returns the collection of all embedded elements.
+URL: It returns the complete URL of the document.
+forms: It returns all the elements of the form.
+fullScreenElement: It returns the element that is currently present in full-screen mode.
+*WINDOW 
+The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+Syntax: window.property_name;
+it reperesent a browser window or frame that display the contents of the webpage.
+it's the very first object that is  loaded in the browser
+it is a objects of the  browser
+golbal objects,function,and variables of javascript are numbers of the window object.
+we can access the window from the window only ex,. window.window
+the window is the part only BOM,not DOM
+properties of the window objects cannot acccess by document object.
+It is used to attach an event handler to the specified element.
+adoptNode(): It is used to adopt a node from another document and it returns a node object, representing the adopted node.
+close(): It is used to close the output stream.
+createAttribute(): It is used to create an attribute node with the specified name and returns the attribute object.
+createComment(): It is used to create a comment node with some text.
+createDocumentFragment(): It is used to create the document fragment to change the content of the document.
+createElement(): It is used to create HTML element .
+createEvent(): It is used to create a new events object.
+createTextNode(): It is used to create a textnode.
+execCommand(): It is used to execute a command specified by the user on the editable selected section. It returns a Boolean value.
+fullscreenEnabled(): It is used to check whether the document can be viewed in fullscreen mode or not. It returns a boolean value.
+getElementById(): It returns the object of the given ID. If no object with that id exists then it returns null.
+getElementsByClassName(): It returns an object containing all the elements with the specified class names in the document as objects.
+getElementsByName(): It returns an object containing all the elements with the specified name in the document as objects.
+getElementsByTagName(): It returns an object containing all the elements with the specified tag names in the document as objects.
+hasFocus(): It returns a boolean value that indicates whether the document or element has focus or not.
+importNode(): It imports the copy of a node from another document in the current document.
+normalize(): It flushes out the empty nodes and merges the adjacent text nodes with the first text node and
+normalizeDocument(): It is used to normalize an HTML document by removing any empty text nodes and joining the adjacent text nodes.
+open(): It is used to open the output stream to collect the output.
+querySelector(): It returns the first element that matches a specified CSS selector(s) in the document.
+querySelectorAll(): It returns a collection of an element’s child elements that matches a specified CSS selector(s) in the document
+removeEventListener(): It removes the event handler from an element that has an attached event.
+renameNode(): It is used to rename the node.
+write(): It is used to write some content or javascript code in the document.
+writeln(): It is used to write a document with a newline character after each statement.
+
